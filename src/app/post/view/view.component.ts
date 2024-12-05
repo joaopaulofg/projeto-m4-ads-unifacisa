@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { PostService } from '../post.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Post } from '../post';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-view',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './view.component.html',
   styleUrl: './view.component.css'
 })
