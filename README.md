@@ -1,4 +1,4 @@
-# Projeto CRUD com Angular 18
+# Projeto Blog de Postagens (CRUD) - Angular 18
 
 Este é um projeto de exemplo para gerenciar postagens utilizando Angular 18. Ele permite criar, visualizar, editar e excluir postagens de forma simples e intuitiva.
 
