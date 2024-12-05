@@ -34,7 +34,7 @@ export class PostService {
   }
 
   find(id: number): Observable<any> {
-    return this.httpClient.get(this.apiURL + '/posts' + id)
+    return this.httpClient.get(this.apiURL + '/posts/' + id)
     .pipe(
       catchError(this.errorHandler)
     )
